@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #0E0F11;
+}
+
+.navbarContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-inline: 100px;
+}
+
+#logo{
+    width: 36px;
+    height: 36px;
+}
+
+.options{
+    display: flex;
+    gap: 30px;
+}
+
+.navOption{
+    text-decoration: none;
+    color: red;
+}

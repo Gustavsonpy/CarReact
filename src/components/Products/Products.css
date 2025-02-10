@@ -1,0 +1,88 @@
+.productContainer{
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 300px;
+    gap: 15px;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carName{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.gearbox{
+    display: flex;
+    align-items: center;
+}
+
+.infos{
+    display: flex;
+    gap: 20px;
+}
+
+.infos .seat, .suitcase, .stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product_price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text{
+    color: #949494;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.priceText{
+    display: flex;
+}
+
+.rent_btn{
+    width: 100%;
+}
+
+.rent_btn {
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 5px;
+    outline: 0;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    background: #FF4742;
+    color: #FFFFFF;
+    border: 1px solid #FF4742;
+}

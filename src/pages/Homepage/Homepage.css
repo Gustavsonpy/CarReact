@@ -1,0 +1,95 @@
+.banner{
+    height: 600px;
+    background-image: url(../../img/audi_banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content{
+    margin-inline: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+
+.content h3, .banner-text{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content span{
+    color: red;
+}
+
+.content p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+
+.banner-btn {
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+#explore-now{
+    background: #FF4742;
+    color: #FFFFFF;
+    border: 1px solid #FF4742;
+}
+
+#track-now{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.benefits{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.products{
+    margin-inline: 100px;
+}
+
+#listProductsTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#listProductsText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+}
+
+.productsList{
+    display: flex;
+    gap: 50px;
+}
