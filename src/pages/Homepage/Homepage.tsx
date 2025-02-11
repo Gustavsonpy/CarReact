@@ -2,6 +2,10 @@ import './Homepage.css';
 import BenefitsBlock from '../../components/benefitsBlock/BenefitsBlock';
 import PlaneSVG from '../../icons/svg/PlaneSVG';
 import Products from '../../components/Products/Products';
+import NikeSVG from '../../icons/svg/NikeSVG';
+import MercedezSVG from '../../icons/svg/MercedezSVG';
+import SamsungSVG from '../../icons/svg/SamsungSVG';
+import LandRoverSVG from '../../icons/svg/LandRoverSVG';
 
 const Homepage = () => {
     return(
@@ -32,6 +36,20 @@ const Homepage = () => {
                     <Products car_name='Nissan GTR' image_link='https://www.1stnissan.com/assets/shared/CustomHTMLFiles/Responsive/ColorSelect/Nissan/2023/GT-R/Exterior/Solid-Red/angle1.png'/>
                     <Products car_name='McLaren 38' image_link='https://www.motortrend.com/uploads/izmo/mclaren/gt/2021/gt.png'/>
                 </div>
+            </div>
+            <div className="partners">
+                <NikeSVG width={200} height={200} fill='black'/>
+                <MercedezSVG width={100} height={150} fill='black'/>
+                {/* <SamsungSVG width={200} height={200} fill='black'/> */}
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 0 0"
+                    fill="currentColor"
+                    id="mcLaren"
+                >
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                </svg>
+                <LandRoverSVG width={200} height={200} fill='black'/>
             </div>
         </div>
     );

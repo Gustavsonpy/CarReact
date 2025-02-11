@@ -93,3 +93,23 @@
     display: flex;
     gap: 50px;
 }
+
+.partners{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+#mcLaren{
+    width: 12.5rem;
+    height: 12.5rem;
+    background-image: url('../../../public/img/homepage/mclaren_black_logo.svg');
+}
+
+#mcLaren:hover{
+    width: 12.5rem;
+    height: 1.8rem;
+    background-image: url('../../../public/img/homepage/mclaren_logo.svg');
+}
