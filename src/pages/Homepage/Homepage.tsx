@@ -4,7 +4,6 @@ import PlaneSVG from '../../icons/svg/PlaneSVG';
 import Products from '../../components/Products/Products';
 import NikeSVG from '../../icons/svg/NikeSVG';
 import MercedezSVG from '../../icons/svg/MercedezSVG';
-import SamsungSVG from '../../icons/svg/SamsungSVG';
 import LandRoverSVG from '../../icons/svg/LandRoverSVG';
 
 const Homepage = () => {
